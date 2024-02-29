@@ -5,10 +5,15 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>	Portifólio</title>
-	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="./styles/style.css">
 </head>
 <body>
-	<header></header>
+	<header class="header">
+		<nav class="header_menu">
+			<a class="header_menu_link" href="index.html">Home</a>
+			<a class="header_menu_link" href="about.html">Sobre mim</a>
+		</nav>
+	</header>
 	<main class="apresentation">
 		<section class="apresentation__content">
 			<h1 class="apresentation__content__title">
@@ -20,13 +25,21 @@
 					colocarem em prática boas ideias. Vamos conversar?
 				</p>
 				<div class="apresentation__links">
-					<a class="apresentation__links__link" href="https://www.linkedin.com/in/leonardo-sales-876425292/">Linkedin</a>
-					<a class="apresentation__links__link" href=" https://github.com/LeonardoSabar">GitHub</a>
+					<h2 class="apresentation__links_subtitles">Acesse minhas redes</h2>
+					<a class="apresentation__links__navigation" href="https://www.linkedin.com/in/leonardo-sales-876425292/">
+						<img src="./assets/linkedin.png">
+						Linkedin</a>
+					<a class="apresentation__links__navigation" href=" https://github.com/LeonardoSabar">
+						<img src="./assets/github.png">
+						GitHub
+					</a>
 				</div>
 		</section>
-			<img src="./images/foto.jpg" alt="foto do Leonardo de perfil" height="323" width="194">
+			<img class="image_apresentation" src="./assssets/foto.jpg" alt="foto do Leonardo de perfil" height="323" width="194">
 		</h1>
 	</main>
-	<footer></footer>
+	<footer class ="baseboard">
+		<p>Desenvolvido por Leonardo Sales</p>
+	</footer>
 </body>
 </html>
